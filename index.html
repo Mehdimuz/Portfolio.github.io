@@ -3,23 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Linktree</title>
+  <title>My Projects Showcase</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen px-4">
-  <div class="bg-white p-6 rounded-2xl shadow-lg w-full max-w-sm">
+  <div class="bg-white p-6 rounded-2xl shadow-lg w-full max-w-3xl">
     <div class="flex flex-col items-center">
       <img src="https://avatars.githubusercontent.com/u/1?v=4" alt="Profile" class="w-24 h-24 rounded-full shadow mb-4">
-      <h1 class="text-2xl font-bold mb-2">@yourusername</h1>
-      <p class="text-gray-600 text-center mb-4">Welcome to my links!</p>
+      <h1 class="text-3xl font-bold mb-1">Your Name</h1>
+      <p class="text-gray-600 text-center mb-4">your.email@example.com | <a href="https://github.com/yourusername" class="text-blue-500 hover:underline">GitHub</a></p>
     </div>
 
-    <div class="flex flex-col gap-4">
-      <a href="https://github.com/yourusername" target="_blank" class="bg-black text-white text-center py-3 rounded-xl hover:bg-gray-800 transition">GitHub</a>
-      <a href="https://instagram.com/yourusername" target="_blank" class="bg-pink-500 text-white text-center py-3 rounded-xl hover:bg-pink-600 transition">Instagram</a>
-      <a href="https://linkedin.com/in/yourusername" target="_blank" class="bg-blue-600 text-white text-center py-3 rounded-xl hover:bg-blue-700 transition">LinkedIn</a>
-      <a href="https://yourblog.com" target="_blank" class="bg-green-500 text-white text-center py-3 rounded-xl hover:bg-green-600 transition">My Blog</a>
-      <a href="mailto:youremail@example.com" class="bg-gray-700 text-white text-center py-3 rounded-xl hover:bg-gray-800 transition">Email Me</a>
+    <div class="space-y-10">
+      <section class="bg-gray-50 p-4 rounded-xl shadow">
+        <h2 class="text-xl font-semibold mb-2">🚀 Project One</h2>
+        <p class="text-gray-700 mb-2">Short description of what this project does or why it's cool.</p>
+        <a href="https://github.com/yourusername/project-one" target="_blank" class="text-blue-600 hover:underline">View on GitHub</a>
+      </section>
+
+      <section class="bg-gray-50 p-4 rounded-xl shadow">
+        <h2 class="text-xl font-semibold mb-2">💡 Project Two</h2>
+        <p class="text-gray-700 mb-2">Brief explanation of this project's purpose or technology used.</p>
+        <a href="https://github.com/yourusername/project-two" target="_blank" class="text-blue-600 hover:underline">View on GitHub</a>
+      </section>
+
+      <section class="bg-gray-50 p-4 rounded-xl shadow">
+        <h2 class="text-xl font-semibold mb-2">📱 Project Three</h2>
+        <p class="text-gray-700 mb-2">Explain what makes this project unique or what you learned.</p>
+        <a href="https://github.com/yourusername/project-three" target="_blank" class="text-blue-600 hover:underline">View on GitHub</a>
+      </section>
     </div>
   </div>
 </body>
